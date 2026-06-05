@@ -11,14 +11,22 @@
 <title>cy83rd3ck</title>
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
-html,body{
-  width:100%;
+html{
+  background:#C8C2B8;
   height:100%;
+}
+body{
   background:#C8C2B8;
   overflow:hidden;
   -webkit-text-size-adjust:100%;
   -webkit-tap-highlight-color:transparent;
   font-family:Helvetica,sans-serif;
+  padding-top:env(safe-area-inset-top);
+  padding-bottom:env(safe-area-inset-bottom);
+  padding-left:env(safe-area-inset-left);
+  padding-right:env(safe-area-inset-right);
+  height:100dvh;
+  width:100%;
 }
 #root{
   width:100%;
@@ -27,12 +35,8 @@ html,body{
   align-items:stretch;
   justify-content:center;
   background:#C8C2B8;
-  padding-top:env(safe-area-inset-top);
-  padding-bottom:env(safe-area-inset-bottom);
-  padding-left:env(safe-area-inset-left);
-  padding-right:env(safe-area-inset-right);
 }
-#splash{position:fixed;inset:0;background:#C8C2B8;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:14px;z-index:9999;padding-top:env(safe-area-inset-top);padding-bottom:env(safe-area-inset-bottom);}
+#splash{position:fixed;inset:0;background:#C8C2B8;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:14px;z-index:9999;}
 .spin{width:44px;height:44px;border-radius:50%;border:3px solid #DDD7CC;border-top:3px solid #FF5500;animation:sp 0.8s linear infinite}
 .lbl{font-size:10px;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:#6B6560}
 @keyframes sp{to{transform:rotate(360deg)}}
