@@ -8,10 +8,6 @@
 
 -----
 
-![cy83rd3ck screenshot](screenshot.png)
-
------
-
 ## What is it?
 
 cy83rd3ck is a complete music production instrument built with Web Audio API and React. It looks and feels like a hardware synth but runs entirely in your browser. It has a step sequencer, multiple synth engines, drum machines, an arpeggiator, a sample pad, a multitrack recorder, and a full-width piano keyboard — all in a single HTML file.
