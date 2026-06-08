@@ -4,6 +4,8 @@
 
 🎹 **[Try it live → happyfaceemoji.github.io/cy83rd3ck](https://happyfaceemoji.github.io/cy83rd3ck)**
 
+☕ **[Support the hardware → ko-fi.com/happyfaceemoji](https://ko-fi.com/happyfaceemoji)**
+
 *Open in Safari on iPhone for the full experience. No install, no account, free forever.*
 
 -----
