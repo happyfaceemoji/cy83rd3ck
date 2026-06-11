@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><style>
+@page{size:A4 portrait;margin:10mm}
+body{font-family:Arial,Helvetica,sans-serif;color:#000;background:#fff;margin:0}
+.sheet{border:2px solid #000;padding:8mm;box-sizing:border-box}
+h1{text-align:center;font-size:13px;letter-spacing:2px;margin:0 0 4mm}
+.row{display:flex;gap:8mm}
+table.titleblock{width:100%;border-collapse:collapse;margin-top:6mm;font-size:9px}
+table.titleblock td{border:1px solid #000;padding:2px 6px;text-align:left}
+table.specs{width:100%;border-collapse:collapse;font-size:9px;margin-top:4mm}
+table.specs td,table.specs th{border:1px solid #000;padding:2px 6px;text-align:left}
+.notes{font-size:9px;line-height:1.5;margin-top:4mm}
+svg text{font-family:Arial,Helvetica,sans-serif}
+</style></head><body>
+<div class="sheet">
+<h1>cy83rd3ck — MULTI-SCREEN ENCLOSURE CONCEPT (FROM SKETCH)</h1>
+
+<div class="row">
+<svg width="277.18" height="432.00" viewBox="0 0 288.18 538.72">
+  <!-- device outline 88.9 x 127 -> scale ~3.5px/mm, origin 10,10 -->
+  <rect x="10" y="10.00" width="267.68" height="428.72" rx="14" ry="14" fill="none" stroke="#000" stroke-width="2"/>
+
+  <!-- SCREEN 3 row: y 4-26mm -->
+  <!-- main screen3 widget: x 3-58mm, y 4-26mm -->
+  <rect x="22.76" y="21.64" width="160.16" height="39.90" fill="#eee" stroke="#000"/>
+  <text x="116" y="39" font-size="8" text-anchor="middle">SCREEN 3 (2.3" 128x32 OLED)</text>
+      <!-- two small square OLEDs: ~13mm sq each -->
+  <rect x="187.77" y="21.64" width="29.94" height="39.90" fill="#ddd" stroke="#000"/>
+  <circle cx="202.74" cy="41.59" r="8" fill="#fff" stroke="#000"/>
+  <text x="202.74" y="51.6" font-size="6" text-anchor="middle">RECORD (knob/btn)</text>
+  <rect x="221.10" y="21.64" width="29.94" height="39.90" fill="#ddd" stroke="#000"/>
+  <text x="236.07" y="40.6" font-size="6.5" text-anchor="middle">PLAY</text>
+  <text x="236.07" y="50.6" font-size="6" text-anchor="middle">BUTTON</text>
+  <text x="217.5" y="59" font-size="4.5" text-anchor="middle">RECORD: EC11 encoder+pushbtn  ·  PLAY: 12x12mm tactile</text>
+
+  <!-- SCREEN 2 row: y 26-48mm -> px 101-178 -->
+  <rect x="11.25" y="66.94" width="265.18" height="78.66" fill="#f5f5f5" stroke="#000"/>
+  <text x="135.75" y="109.27" font-size="9" text-anchor="middle">SCREEN 2</text>
+  <text x="135.75" y="122.79" font-size="6.5" text-anchor="middle">3.12" 256x64 mono OLED, SSD1322 (88.0 x 27.8mm)</text>
+    
+  <!-- BEND/MOD sliders + TAP/note/RPT/loop buttons: y 182-204 -->
+  <rect x="20.5" y="151.00" width="80.75" height="17" fill="#fff" stroke="#000"/>
+  <text x="60.875" y="158.5" font-size="6.5" text-anchor="middle">BEND slider (physical fader)</text>
+  <text x="60.875" y="165" font-size="5" text-anchor="middle">ALPS RS30111, 30mm travel</text>
+  <rect x="105.25" y="151.00" width="80.75" height="17" fill="#fff" stroke="#000"/>
+  <text x="145.625" y="158.5" font-size="6.5" text-anchor="middle">MOD slider</text>
+  <text x="145.625" y="165" font-size="5" text-anchor="middle">ALPS RS30111, 30mm travel</text>
+  <rect x="190.50" y="151.00" width="17" height="17" fill="#fff" stroke="#000"/>
+  <text x="199.00" y="162.5" font-size="6" text-anchor="middle">TAP</text>
+  <rect x="210.56" y="151.00" width="17" height="17" fill="#fff" stroke="#000"/>
+  <text x="219.06" y="162.5" font-size="6" text-anchor="middle">NOTE</text>
+  <rect x="230.62" y="151.00" width="17" height="17" fill="#fff" stroke="#000"/>
+  <text x="239.12" y="162.5" font-size="6" text-anchor="middle">RPT</text>
+  <rect x="250.68" y="151.00" width="17" height="17" fill="#fff" stroke="#000"/>
+  <text x="259.18" y="162.5" font-size="6" text-anchor="middle">LP</text>
+  <text x="228.84" y="172" font-size="4.5" text-anchor="middle">6x6mm tactile (x4)</text>
+
+  <!-- Track select buttons: y 208-236 -->
+  <rect x="20.5" y="173.04" width="46" height="34" rx="3" fill="#f0f0f0" stroke="#000"/>
+  <text x="43.5" y="193.5" font-size="7" text-anchor="middle">KICK</text>
+  <rect x="68.5" y="173.04" width="46" height="34" rx="3" fill="#f0f0f0" stroke="#000"/>
+  <text x="91.5" y="193.5" font-size="7" text-anchor="middle">SNRE</text>
+  <rect x="116.5" y="173.04" width="46" height="34" rx="3" fill="#f0f0f0" stroke="#000"/>
+  <text x="139.5" y="193.5" font-size="7" text-anchor="middle">HIHAT</text>
+  <rect x="164.5" y="173.04" width="44" height="34" rx="3" fill="#f0f0f0" stroke="#000"/>
+  <text x="186.5" y="193.5" font-size="7" text-anchor="middle">BASS</text>
+  <rect x="210.5" y="173.04" width="40.5" height="34" rx="3" fill="#f0f0f0" stroke="#000"/>
+  <text x="230.75" y="193.5" font-size="7" text-anchor="middle">LEAD</text>
+  <text x="135.75" y="204" font-size="4.5" text-anchor="middle">12x12mm tactile (x5)</text>
+
+  <!-- TAB ROW: y 240-256 -->
+  <text x="135.75" y="210.71" font-size="4.5" text-anchor="middle">4.5x4.5mm low-profile SMD tactile (x10)</text>
+  <rect x="20.5" y="212.44" width="247.18" height="13.31" fill="#fff" stroke="#000"/>
+  <text x="135.75" y="221.58" font-size="6" text-anchor="middle">Seq · Engine · Arp · FX · Mix · Midi · Live · Deck · Smplr · H4CK</text>
+
+  <!-- SCREEN 1: y 260-352 -->
+  <rect x="11.25" y="227.00" width="265.18" height="149.40" fill="#eaeaea" stroke="#000"/>
+  <text x="135.75" y="268.35" font-size="11" text-anchor="middle">SCREEN 1 (TOUCHSCREEN)</text>
+  <text x="135.75" y="283.35" font-size="6.5" text-anchor="middle">4" 800x480 capacitive touch DSI (87 x 52.5mm, Waveshare 4-DSI-TOUCH-A / SKU 34354)</text>
+      
+  <!-- OCTAVE ARROWS + BLACK KEY INDICATORS ROW: y 356-368 -->
+  <rect x="20.50" y="377.21" width="17" height="17" fill="#fff" stroke="#000"/>
+  <text x="29.00" y="388.20" font-size="8" text-anchor="middle">&lt;</text>
+  <rect x="41.43" y="377.21" width="17" height="17" fill="#fff" stroke="#000"/>
+  <text x="49.93" y="388.20" font-size="8" text-anchor="middle">&gt;</text>
+  <g stroke="#000" fill="#ddd">
+    <rect x="62.35" y="377.21" width="17" height="17"/>
+    <rect x="83.28" y="377.21" width="17" height="17"/>
+    <rect x="104.20" y="377.21" width="17" height="17"/>
+    <rect x="125.13" y="377.21" width="17" height="17"/>
+    <rect x="146.05" y="377.21" width="17" height="17"/>
+    <rect x="166.98" y="377.21" width="17" height="17"/>
+    <rect x="187.90" y="377.21" width="17" height="17"/>
+    <rect x="208.83" y="377.21" width="17" height="17"/>
+    <rect x="229.75" y="377.21" width="17" height="17"/>
+    <rect x="250.68" y="377.21" width="17" height="17"/>
+  </g>
+  <g font-size="6" text-anchor="middle" fill="#000">
+    <text x="134.75" y="373.99">1</text>
+    <text x="70.85" y="388.20">1</text>
+    <text x="91.78" y="388.20">2</text>
+    <text x="112.70" y="388.20">3</text>
+    <text x="133.63" y="388.20">4</text>
+    <text x="154.55" y="388.20">5</text>
+    <text x="175.48" y="388.20">6</text>
+    <text x="196.40" y="388.20">7</text>
+    <text x="217.33" y="388.20">8</text>
+    <text x="238.25" y="388.20">9</text>
+    <text x="259.18" y="388.20">10</text>
+  <text x="135.75" y="398.21" font-size="6" text-anchor="middle">octave nav · sound/sample select buttons (10) — 6x6mm tactile (x12)</text>
+
+  <!-- KEYBOARD: drawn keys, y 376-426 -->
+  <rect x="15.08" y="399.61" width="36.79" height="34.1" fill="#fff" stroke="#000"/>
+  <rect x="51.87" y="399.61" width="36.79" height="34.1" fill="#fff" stroke="#000"/>
+  <rect x="88.66" y="399.61" width="36.79" height="34.1" fill="#fff" stroke="#000"/>
+  <rect x="125.45" y="399.61" width="36.79" height="34.1" fill="#fff" stroke="#000"/>
+  <rect x="162.24" y="399.61" width="36.79" height="34.1" fill="#fff" stroke="#000"/>
+  <rect x="199.03" y="399.61" width="36.79" height="34.1" fill="#fff" stroke="#000"/>
+  <rect x="235.82" y="399.61" width="36.79" height="34.1" fill="#fff" stroke="#000"/>
+  <rect x="40.55" y="399.61" width="22.64" height="21.14" fill="#222" stroke="#000"/>
+  <rect x="77.34" y="399.61" width="22.64" height="21.14" fill="#222" stroke="#000"/>
+  <rect x="150.92" y="399.61" width="22.64" height="21.14" fill="#222" stroke="#000"/>
+  <rect x="187.71" y="399.61" width="22.64" height="21.14" fill="#222" stroke="#000"/>
+  <rect x="224.50" y="399.61" width="22.64" height="21.14" fill="#222" stroke="#000"/>
+  <text x="138.84" y="431.70" font-size="6" text-anchor="middle">1 octave (C-B), ~13-15mm pitch — donor: Raimy 37-key toy keyboard (0.59" key width)</text>
+
+  <!-- Bottom-edge speaker grilles -->
+  <g stroke="#000" stroke-width="0.6">
+    <line x1="18" y1="435.70" x2="34" y2="435.70"/>
+    <line x1="18" y1="438.20" x2="34" y2="438.20"/>
+    <line x1="18" y1="440.70" x2="34" y2="440.70"/>
+    <line x1="244" y1="435.70" x2="260" y2="435.70"/>
+    <line x1="244" y1="438.20" x2="260" y2="438.20"/>
+    <line x1="244" y1="440.70" x2="260" y2="440.70"/>
+  </g>
+  <text x="26" y="448.70" font-size="4.5" text-anchor="middle">SPKR</text>
+  <text x="252" y="448.70" font-size="4.5" text-anchor="middle">SPKR</text>
+
+  <!-- dims -->
+  <line x1="0" y1="10.00" x2="0" y2="438.72" stroke="#000" stroke-width="0.5"/>
+  <text x="-4" y="224.36" font-size="8" text-anchor="middle" transform="rotate(-90 -4,224.36)">151.5mm (5.97&quot;)</text>
+  <line x1="10" y1="450.36" x2="290" y2="450.36" stroke="#000" stroke-width="0.5"/>
+  <text x="151" y="461.20" font-size="8" text-anchor="middle">94.6mm (3.73&quot;)</text>
+</svg>
+
+<svg width="96" height="432.00" viewBox="0 0 88.53 538.72">
+  <rect x="4" y="10" width="57.44" height="428.72" fill="none" stroke="#000" stroke-width="2"/>
+  <!-- 20mm depth stack, front(left) to back(right), 1 unit = 0.3534mm => 2.83 units/mm -->
+  <g stroke="#000" font-size="6" text-anchor="middle">
+    <rect x="4" y="10" width="4.245" height="428.72" fill="#ddd"/>
+    <rect x="8.245" y="10" width="14.15" height="428.72" fill="#bbb"/>
+    <rect x="22.395" y="10" width="1.415" height="428.72" fill="#eee"/>
+    <rect x="23.81" y="10" width="11.32" height="428.72" fill="#ccc"/>
+    <rect x="35.13" y="10" width="11.32" height="428.72" fill="#aaa"/>
+    <rect x="46.45" y="10" width="1.415" height="428.72" fill="#eee"/>
+    <rect x="47.865" y="10" width="4.245" height="428.72" fill="#ddd"/>
+    <rect x="52.11" y="10" width="5.80" height="428.72" fill="#f5f5f5" stroke-dasharray="2,2"/>
+  </g>
+  <g font-size="6" transform="translate(0,0)">
+    <text x="6.12" y="199" transform="rotate(-90 6.12,224.36)">FRONT 1.5</text>
+    <text x="16.74" y="199" transform="rotate(-90 16.74,224.36)">CTRL/DISPLAY ~6 (+16mm spkr ~3)</text>
+    <text x="32.30" y="199" transform="rotate(-90 32.30,224.36)">PCB 4</text>
+    <text x="45.315" y="199" transform="rotate(-90 45.315,224.36)">BATT 5.2 (LP523450)</text>
+    <text x="56.21" y="199" transform="rotate(-90 56.21,224.36)">BACK 1.5</text>
+    <text x="59.89" y="199" transform="rotate(-90 59.89,224.36)">TOL 1.1</text>
+  </g>
+  <line x1="4" y1="450.36" x2="61.44" y2="450.36" stroke="#000" stroke-width="0.5"/>
+  <text x="32.72" y="461.20" font-size="8" text-anchor="middle">20.3mm (0.8")</text>
+  <text x="32.72" y="476.70" font-size="6" text-anchor="middle">Prototype: SLA resin</text>
+  <text x="32.72" y="486.70" font-size="6" text-anchor="middle">(tough/durable resin)</text>
+</svg>
+
+
+
+<div class="notes" style="flex:1">
+<b>Three-screen + physical controls layout (refined per latest sketch)</b><br><br>
+• <b>Screen 3</b> (top-left): small status/transport/waveform display. Top-right: a rotary encoder
+(with knob) and a second small display/button (OLED B).<br>
+• <b>Screen 2</b>: secondary mid display (sliders/status overview).<br>
+• <b>Physical row 1</b>: BEND + MOD sliders (faders), plus TAP / NOTE / RPT / LOOP buttons.<br>
+• <b>Physical row 2</b>: 5 track-select buttons — KICK / SNRE / HIHAT / BASS / LEAD.<br>
+• <b>Tab row</b>: Seq/Engine/Arp/FX/Mix/Midi/Live/Deck/Smplr/H4CK — physical buttons or thin touch strip.<br>
+• <b>Screen 1</b> (large): main 4" 480x800 capacitive touch DSI — sequencer grid, sampler, deck,
+mixer etc., depending on active tab.<br>
+• <b>Bottom</b>: physical FSR keyboard, 14 white / 10 black, C4-C6 (unchanged from earlier blueprints).<br><br>
+
+<b>Big implications:</b><br>
+1. <b>Displays/drivers</b>: Screen1 = DSI (CM4). Screen2/3/OLED B = small SPI/I2C displays — CM4 has
+spare SPI + I2C, workable. Encoder = rotary + push, needs 3 GPIO/Teensy pins.<br>
+2. <b>Physical controls</b>: BEND/MOD as real sliders + TAP/NOTE/RPT/LOOP/track buttons + tab row
+is a LOT of physical I/O — likely needs the Teensy 4.1 (or an I2C GPIO expander) to handle
+button matrix + 2 analog faders + encoder, in addition to the 24-key FSR matrix.<br>
+3. <b>Software</b>: cyberdeck_v5.tsx currently renders BEND/MOD/transport/track-select/tabs as
+on-screen UI in one continuous page. This concept moves most of that to physical
+controls + small secondary displays — meaning Screen1's web UI loses its top control zone
+entirely, and a separate lightweight renderer (Python/SPI) drives Screen2/3/OLED B from
+app state.<br>
+4. <b>Thickness</b>: each extra display + button/fader layer adds depth. Sliders alone are often
+6-8mm deep. This pushes well past the 20mm target — likely 24-28mm again, possibly more
+with fader hardware.<br><br>
+
+<b>Suggest next step:</b> this is now closer to a full hardware-control-surface redesign than
+an enclosure tweak. Worth listing exact part numbers for: 2x linear sliders, rotary encoder,
+~8 tactile buttons, Screen2/3 panels — then a stepped cross-section.
+</div>
+</div>
+
+<table class="titleblock">
+<tr><td style="width:15%;font-weight:bold;font-size:14px">cy83rd3ck</td>
+<td style="width:15%"><b>TITLE</b></td><td style="width:35%">Multi-Screen Enclosure Concept (3 displays + 2 OLEDs)</td>
+<td style="width:15%"><b>DWG NO.</b></td><td style="width:20%">CY83-ENC-010 (concept)</td></tr>
+<tr><td></td><td><b>BASIS</b></td><td>88.9 x 127.0mm (3.5 x 5.0in) front face, layout per hand sketch</td>
+<td><b>SCALE</b></td><td>AS NOTED</td></tr>
+<tr><td></td><td><b>STATUS</b></td><td>CONCEPT — part numbers / thicknesses / driver routing TBD</td><td><b>REV</b></td><td>A — June 2026</td></tr>
+</table>
+</div>
+
+<div class="sheet" style="page-break-before:always;margin-top:8mm">
+<h1>cy83rd3ck — BILL OF MATERIALS (PROTOTYPE)</h1>
+<table class="specs">
+<tr><th style="width:18%">Category</th><th style="width:32%">Component</th><th style="width:30%">Part / Spec</th><th style="width:20%">Notes</th></tr>
+<tr><td>Compute</td><td>SBC</td><td>Raspberry Pi CM4104032 — 4GB RAM / 32GB eMMC / Wireless ($120)</td><td>Runs Chromium kiosk + cy83rd3ck app</td></tr>
+<tr><td>Compute</td><td>Input MCU</td><td>Teensy 4.1</td><td>USB MIDI controller for all physical inputs</td></tr>
+<tr><td>Display</td><td>Screen 1</td><td>4" 800x480 capacitive touch DSI panel (87 x 52.5mm active area, Waveshare 4-DSI-TOUCH-A / SKU 34354, $28.99)</td><td>Main touchscreen UI</td></tr>
+<tr><td>Display</td><td>Screen 2</td><td>3.12" SSD1322 mono OLED, 256x64 (88.0 x 27.8mm)</td><td>Waveform display, SPI</td></tr>
+<tr><td>Display</td><td>Screen 3</td><td>2.3" SSD1306 mono OLED, 128x32 (~56.6 x 14.1mm)</td><td>Status/transport, SPI/I2C</td></tr>
+<tr><td>Controls</td><td>BEND / MOD sliders (x2)</td><td>ALPS RS30111, 10K linear, 30mm travel</td><td>Analog → Teensy ADC</td></tr>
+<tr><td>Controls</td><td>TAP/NOTE/RPT/LP (x4)</td><td>6x6mm tactile switch</td><td>Direct GPIO</td></tr>
+<tr><td>Controls</td><td>Track buttons (x5)</td><td>12x12mm tactile switch</td><td>Direct GPIO</td></tr>
+<tr><td>Controls</td><td>Tab row (x10)</td><td>4.5x4.5mm low-profile SMD tactile</td><td>MCP23017 #1 (0x20)</td></tr>
+<tr><td>Controls</td><td>Octave nav + sound select (x12)</td><td>6x6mm tactile switch</td><td>MCP23017 #2 (0x21)</td></tr>
+<tr><td>Controls</td><td>RECORD encoder</td><td>EC11 rotary encoder w/ pushbutton</td><td>Direct GPIO (A/B/push)</td></tr>
+<tr><td>Controls</td><td>PLAY button</td><td>12x12mm tactile switch</td><td>MCP23017 #1</td></tr>
+<tr><td>Controls</td><td>Keyboard (1 oct, 7W+5B)</td><td>Donor: Raimy 37-key toy keyboard (~13-15mm pitch), FSR-based</td><td>FSR matrix → CD74HC4067 mux → Teensy A0</td></tr>
+<tr><td>Audio</td><td>Codec</td><td>WM8960 (I2S + I2C)</td><td>Stereo speaker amp + 3.5mm jack + mic in</td></tr>
+<tr><td>Audio</td><td>Speakers (x2)</td><td>BeStar 16mm round, 0.7-1.5W, 4-8Ω (~2.5-3mm thick)</td><td>Rear/bottom-edge grilles</td></tr>
+<tr><td>Power</td><td>Battery</td><td>LP523450 LiPo, 1000mAh, 3.7V (5.2 x 34 x 50mm)</td><td></td></tr>
+<tr><td>Power</td><td>Charge/Boost</td><td>IP5306-based charge/boost, USB-C, 5V/2.1A</td><td>Powers CM4 + Teensy</td></tr>
+<tr><td>Logic</td><td>GPIO expanders (x2)</td><td>MCP23017, addr 0x20/0x21, SSOP-28</td><td>I2C, shared bus w/ Teensy</td></tr>
+<tr><td>Logic</td><td>Analog mux</td><td>CD74HC4067, SOIC-24</td><td>Keyboard FSR matrix</td></tr>
+<tr><td>Connectors</td><td>USB-C</td><td>16-pin SMD mid-mount receptacle</td><td>PD charging</td></tr>
+<tr><td>Connectors</td><td>3.5mm jack</td><td>PJ-320A-class slim SMD (~6mm depth)</td><td>WM8960 headphone out</td></tr>
+<tr><td>Connectors</td><td>Screen 1 FPC</td><td>22-pin, 0.5mm pitch (CM4 DSI)</td><td></td></tr>
+<tr><td>Connectors</td><td>Screen 2/3 FPC + ZIF</td><td>0.5mm pitch FPC, matching ZIF sockets</td><td></td></tr>
+<tr><td>Connectors</td><td>Keyboard ribbon</td><td>TBD — pending donor keybed inspection</td><td></td></tr>
+<tr><td>Enclosure</td><td>Case (front/back)</td><td>SLA resin, tough/durable resin, 1.5mm walls</td><td>20.3mm (0.8") total depth</td></tr>
+</table>
+<div class="notes">
+<b>Open items:</b> keyboard ribbon connector (depends on donor unit), final PCB layout integrating all of the above.
+</div>
+</div>
+
+<style>
+.row{display:flex;gap:6mm;justify-content:center}
+h2{font-size:11px;text-align:center;margin:2mm 0}
+</style>
+<div class="sheet" style="page-break-before:always;margin-top:8mm">
+<h1>cy83rd3ck — PCB FLOORPLAN (CONCEPT, NOT ROUTED)</h1>
+<div class="row">
+
+<!-- ===================== FRONT SIDE (component side facing user) ===================== -->
+<div>
+<h2>FRONT-FACING (switches, sliders, display connectors)</h2>
+<svg width="280" height="446.70" viewBox="0 0 268 431.70">
+  <rect x="0" y="0" width="268" height="431.70" rx="14" fill="none" stroke="#000" stroke-width="2"/>
+
+  <!-- Screen3 + record/play -->
+  <rect x="12" y="12" width="160" height="40" fill="#eee" stroke="#000"/>
+  <text x="92" y="35" font-size="7" text-anchor="middle">SCREEN3 conn (FPC/ZIF)</text>
+  <rect x="178" y="12" width="30" height="40" fill="#ddd" stroke="#000"/>
+  <text x="193" y="35" font-size="6" text-anchor="middle">REC ENC</text>
+  <rect x="212" y="12" width="30" height="40" fill="#ddd" stroke="#000"/>
+  <text x="227" y="35" font-size="6" text-anchor="middle">PLAY</text>
+
+  <!-- Screen2 -->
+  <rect x="12" y="58" width="244" height="40" fill="#f5f5f5" stroke="#000"/>
+  <text x="134" y="80" font-size="7" text-anchor="middle">SCREEN2 conn (FPC/ZIF)</text>
+
+  <!-- sliders + tap row -->
+  <rect x="12" y="102" width="80" height="17" fill="#fff" stroke="#000"/>
+  <text x="52" y="113" font-size="6" text-anchor="middle">BEND slider</text>
+  <rect x="96" y="102" width="80" height="17" fill="#fff" stroke="#000"/>
+  <text x="136" y="113" font-size="6" text-anchor="middle">MOD slider</text>
+  <rect x="180" y="102" width="17" height="17" fill="#fff" stroke="#000"/>
+  <rect x="200" y="102" width="17" height="17" fill="#fff" stroke="#000"/>
+  <rect x="220" y="102" width="17" height="17" fill="#fff" stroke="#000"/>
+  <rect x="240" y="102" width="17" height="17" fill="#fff" stroke="#000"/>
+  <text x="218" y="128" font-size="5.5" text-anchor="middle">TAP/NOTE/RPT/LP (6x6mm)</text>
+
+  <!-- track buttons -->
+  <rect x="12" y="135" width="244" height="34" fill="#f0f0f0" stroke="#000"/>
+  <text x="134" y="155" font-size="6.5" text-anchor="middle">5x 12x12mm tactile (KICK..LEAD)</text>
+
+  <!-- tab row -->
+  <rect x="12" y="173" width="244" height="13" fill="#fff" stroke="#000"/>
+  <text x="134" y="183" font-size="5.5" text-anchor="middle">10x 4.5x4.5mm tactile (tab row)</text>
+
+  <!-- Screen1 -->
+  <rect x="12" y="190" width="244" height="149.70" fill="#eaeaea" stroke="#000"/>
+  <text x="134" y="265" font-size="7" text-anchor="middle">SCREEN1 conn (DSI FPC, 22pin)</text>
+
+  <!-- octave/sound select -->
+  <rect x="12" y="347.70" width="244" height="17" fill="#fff" stroke="#000"/>
+  <text x="134" y="359.70" font-size="5.5" text-anchor="middle">12x 6x6mm tactile (octave/sound)</text>
+
+  <!-- keyboard -->
+  <rect x="14" y="369.70" width="240" height="34" fill="#fff" stroke="#000"/>
+  <text x="134" y="389.70" font-size="6.5" text-anchor="middle">Keyboard FFC (TBD pitch)</text>
+
+  <!-- speakers -->
+  <circle cx="30" cy="416.70" r="11" fill="#eee" stroke="#000"/>
+  <circle cx="238" cy="416.70" r="11" fill="#eee" stroke="#000"/>
+  <text x="134" y="419.70" font-size="5.5" text-anchor="middle">16mm speakers (rear/bottom-edge fire)</text>
+</svg>
+</div>
+
+<!-- ===================== BACK SIDE (compute, ICs, power) ===================== -->
+<div>
+<h2>BACK-SIDE (compute, logic ICs, power, connectors)</h2>
+<svg width="280" height="446.70" viewBox="0 0 268 431.70">
+  <rect x="0" y="0" width="268" height="431.70" rx="14" fill="none" stroke="#000" stroke-width="2"/>
+
+  <!-- area behind screen3/rec/play -->
+  <rect x="12" y="12" width="100" height="40" fill="#fff3d6" stroke="#000"/>
+  <text x="62" y="28" font-size="6.5" text-anchor="middle" font-weight="bold">WM8960</text>
+  <text x="62" y="40" font-size="5.5" text-anchor="middle">audio codec (QFN)</text>
+  <rect x="116" y="12" width="60" height="40" fill="#fff3d6" stroke="#000"/>
+  <text x="146" y="28" font-size="6.5" text-anchor="middle" font-weight="bold">IP5306</text>
+  <text x="146" y="40" font-size="5.5" text-anchor="middle">charge/boost</text>
+  <rect x="180" y="12" width="62" height="40" fill="#fff3d6" stroke="#000"/>
+  <text x="211" y="28" font-size="6.5" text-anchor="middle" font-weight="bold">USB-C</text>
+  <text x="211" y="40" font-size="5.5" text-anchor="middle">PD in / charge</text>
+
+  <!-- area behind screen2: Teensy 4.1 -->
+  <rect x="12" y="58" width="160" height="40" fill="#e7ffe0" stroke="#000"/>
+  <text x="92" y="74" font-size="8" text-anchor="middle" font-weight="bold">Teensy 4.1</text>
+  <text x="92" y="88" font-size="6" text-anchor="middle">61 x 18mm, USB to CM4</text>
+  <rect x="178" y="58" width="40" height="40" fill="#fff3d6" stroke="#000"/>
+  <text x="198" y="74" font-size="6" text-anchor="middle" font-weight="bold">MCP23017</text>
+  <text x="198" y="86" font-size="5.5" text-anchor="middle">#1 (0x20)</text>
+  <rect x="222" y="58" width="34" height="40" fill="#fff3d6" stroke="#000"/>
+  <text x="239" y="74" font-size="6" text-anchor="middle" font-weight="bold">MCP23017</text>
+  <text x="239" y="86" font-size="5.5" text-anchor="middle">#2 (0x21)</text>
+
+  <!-- mux + 3.5mm jack -->
+  <rect x="12" y="102" width="60" height="17" fill="#fff3d6" stroke="#000"/>
+  <text x="42" y="113" font-size="6" text-anchor="middle">CD74HC4067</text>
+  <rect x="220" y="102" width="37" height="17" fill="#fff3d6" stroke="#000"/>
+  <text x="238" y="113" font-size="6" text-anchor="middle">3.5mm jack</text>
+
+  <!-- area behind track buttons: CM4 -->
+  <rect x="12" y="135" width="160" height="84" fill="#dfe7ff" stroke="#000"/>
+  <text x="92" y="170" font-size="10" text-anchor="middle" font-weight="bold">CM4104032</text>
+  <text x="92" y="186" font-size="6.5" text-anchor="middle">40 x 40mm module</text>
+  <text x="92" y="198" font-size="6" text-anchor="middle">(socket on carrier PCB)</text>
+
+  <!-- battery connector area, behind screen1 lower portion -->
+  <rect x="12" y="291.70" width="244" height="48" fill="#e0f7ff" stroke="#000" stroke-dasharray="3,3"/>
+  <text x="134" y="311.70" font-size="7" text-anchor="middle" font-weight="bold">Battery footprint (LP523450, 34x50mm)</text>
+  <text x="134" y="325.70" font-size="6" text-anchor="middle">sits in BATT layer behind PCB — connector pads only here</text>
+
+  <!-- spare/routing space -->
+  <rect x="12" y="347.70" width="244" height="56" fill="none" stroke="#999" stroke-dasharray="2,2"/>
+  <text x="134" y="377.70" font-size="6.5" text-anchor="middle" fill="#666">routing / via space behind keyboard area</text>
+
+  <text x="134" y="419.70" font-size="5.5" text-anchor="middle">Speaker leads routed to WM8960 outputs (top-left)</text>
+</svg>
+</div>
+
+</div>
+
+<div class="notes">
+<b>Notes:</b> This is a single PCB with components on both sides — front side carries switch/slider footprints and display FPC/ZIF connectors aligned to the front-panel layout; back side carries the CM4 module socket, Teensy 4.1, audio codec, power management, GPIO expanders/mux, and the USB-C/3.5mm connectors (positioned at the top edge for enclosure cutout access). The CM4 (40x40mm) is placed behind the track-button row where there's a large open area; Teensy 4.1 (61x18mm) sits behind Screen 2. The battery sits in its own depth layer behind the PCB — only its connector pads are on the PCB, in the area behind Screen 1's lower portion. Keyboard ribbon connector placement is TBD pending donor inspection.<br><br>
+<b>Next step for an actual routable board:</b> import this floorplan into KiCad, place real footprints (CM4 castellated-edge socket, Teensy headers, SSOP/QFN/SOIC packages for the ICs, FPC/ZIF connectors, switch/slider THT or SMD footprints), then route power (5V/3.3V rails) and signal nets (SPI, I2C, GPIO matrix, analog) per the pin-wiring table.
+</div>
+</div>
+
+
+<div class="sheet" style="page-break-before:always;margin-top:8mm">
+<h1>cy83rd3ck — FRONT PANEL SHELL (OpenSCAD source)</h1>
+<div class="notes">
+First print target: a flat 1.5mm front panel (94.6 x 151.51mm) with all cutouts derived from the layout above.
+Open in OpenSCAD (free, openscad.org) to render and export STL for SLA printing. Use this to validate
+button/screen/keyboard alignment against sourced parts before modeling the full enclosure (walls, back, standoffs).
+</div>
+<pre style="font-size:6.5px;line-height:1.3;font-family:'Courier New',monospace;white-space:pre-wrap;border:1px solid #000;padding:3mm;margin-top:3mm;">// ============================================================
+// cy83rd3ck — FRONT PANEL SHELL (concept, prototype)
+// Overall: 94.6 x 151.51 x 1.5mm, corner radius 7mm
+// Open this file in OpenSCAD (free, openscad.org) to view/export STL.
+// All cutout positions derived from the front-panel diagram
+// (cy83rd3ck_hardware_concept.pdf), 1 unit = 0.3534mm.
+// ============================================================
+
+W = 94.6;
+H = 151.51;
+T = 1.5;      // panel thickness
+R = 7;        // corner radius
+EXTRA = 4;    // extra height for cutout tools (through-cuts)
+
+module rrect(w, h, r) {
+    hull() {
+        translate([r, r])           circle(r=r, $fn=48);
+        translate([w-r, r])         circle(r=r, $fn=48);
+        translate([r, h-r])         circle(r=r, $fn=48);
+        translate([w-r, h-r])       circle(r=r, $fn=48);
+    }
+}
+
+module panel() {
+    linear_extrude(height=T) rrect(W, H, R);
+}
+
+module cut_rect(x, y, w, h) {
+    translate([x, y, -EXTRA/2]) cube([w, h, T+EXTRA]);
+}
+
+module cut_circle(cx, cy, d) {
+    translate([cx, cy, -EXTRA/2]) cylinder(d=d, h=T+EXTRA, $fn=48);
+}
+
+module front_panel() {
+    difference() {
+        panel();
+
+        // ---- Display windows ----
+        cut_rect(3.29, 78.61, 87, 52.5);     // SCREEN1 (4" 800x480 touch DSI, Waveshare 4-DSI-TOUCH-A / SKU 34354 active area)
+        cut_rect(8.91, 24.43, 76.778, 19.178); // SCREEN2 (3.12" SSD1322 OLED active area)
+        cut_rect(4.51, 4.11, 56.6, 14.1);    // SCREEN3 (2.3" 128x32 OLED)
+
+        // ---- Record encoder + Play button (top row) ----
+        cut_circle(68.11+3.5, 11.16+3.5, 7);  // RECORD encoder shaft, d=7mm
+        cut_rect(73.89, 5.16, 12, 12);        // PLAY button
+
+        // ---- TAP / NOTE / RPT / LP (6x6mm) ----
+        cut_rect(63.80, 49.84, 6, 6);
+        cut_rect(70.88, 49.84, 6, 6);
+        cut_rect(77.97, 49.84, 6, 6);
+        cut_rect(85.06, 49.84, 6, 6);
+
+        // ---- Track buttons KICK/SNRE/HIHAT/BASS/LEAD (12x12mm) ----
+        cut_rect(5.84,  57.63, 12, 12);
+        cut_rect(22.80, 57.63, 12, 12);
+        cut_rect(39.77, 57.63, 12, 12);
+        cut_rect(56.38, 57.63, 12, 12);
+        cut_rect(72.02, 57.63, 12, 12);
+
+        // ---- Tab row x10 (4.5x4.5mm) ----
+        for (i = [0:9]) {
+            cut_rect(5.83 + i*8.726, 71.64, 4.5, 4.5);
+        }
+
+        // ---- Octave nav (&lt;,&gt;) + sound select x10 (6x6mm) ----
+        oct_x = [3.71, 11.11, 18.50, 25.90, 33.30, 40.70, 48.10, 55.50, 62.89, 70.28, 77.69, 85.07];
+        for (x = oct_x) {
+            cut_rect(x, 129.77, 6, 6);
+        }
+
+        // ---- BEND / MOD slider slots (30mm travel x 4mm) ----
+        cut_rect(2.98,  50.84, 30, 4);
+        cut_rect(32.93, 50.84, 30, 4);
+
+        // ---- Keyboard cutout (1 octave, FSR keybed pokes through) ----
+        cut_rect(1.80, 137.69, 91.0, 12.05);
+
+        // ---- Speaker grilles (bottom edge, simple slot vents) ----
+        for (gx = [0:2]) {
+            cut_rect(2.83 + gx*5,  H-4, 3, 3); // left grille, 3 slots
+            cut_rect(75.77 + gx*5, H-4, 3, 3); // right grille, 3 slots
+        }
+    }
+}
+
+front_panel();
+
+// ============================================================
+// NOTES:
+// - This is the FRONT PANEL only (1.5mm) — a good first print to
+//   validate button/screen/keyboard alignment against real parts.
+// - Side walls + back panel + internal standoffs are NOT modeled
+//   yet; this is a flat test plate.
+// - BEND/MOD slots assume the slider lever protrudes through a
+//   30mm slot; verify against the actual ALPS RS30111 lever travel.
+// - Track button & octave/sound cutouts are sized to the SWITCH
+//   (12x12 / 6x6mm), not a larger keycap — add keycap clearance
+//   if using oversized caps.
+// - Keyboard cutout is a single rectangle; the FSR keybed assembly
+//   sits behind it. Adjust once the donor keyboard is measured.
+// ============================================================
+</pre>
+</div>
+
+</body></html>
